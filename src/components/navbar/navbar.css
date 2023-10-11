@@ -88,21 +88,11 @@
     padding: 1rem 1rem;
 }
 
-.login-btn {
-    width: 40%;
-    height: 3em;
-    background-color: rgb(32, 177, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    border-radius: 0.25em;
-    cursor: pointer;
-}
+
 
 .popup{
     width: 320px;
-    height: 210px;
+    height: 230px;
     background-color:rgb(255, 255, 255);;
     position: absolute;
     text-align: center;
@@ -112,6 +102,9 @@
     transform:  translate(-50%, 0px);
     box-shadow: rgba(0, 19, 37, 0.48) 0px 8px 32px;
    
+}
+.close-btn{
+    text-align: right;
 }
 .heading_signin h3{
     text-align:center;

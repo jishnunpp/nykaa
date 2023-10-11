@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import logo from '../../assets/logo1.png'
 import './navbar.css'
 import { HiOutlineShoppingBag } from 'react-icons/hi2';
+import { GrClose} from "react-icons/gr";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -25,13 +26,15 @@ const Navbar = () => {
          </ul>
          <input type='text' placeholder='🔍  Search on Nykaa'/> 
         </div>
+
       </div>
     
-        <div className='navbar-sign'>
+        <div className='navbar-sign' >
           <button type='button' onClick={() => setToggleMenu(true)} >Sign in</button>
             {toggleMenu && (
           <div className='popup'>
            <div className='heading_signin'>
+           <div className='close-btn' onClick={() => setToggleMenu(false)}> < GrClose/></div>
           <h3>Login / Create Account </h3>
            </div>
            <div>
