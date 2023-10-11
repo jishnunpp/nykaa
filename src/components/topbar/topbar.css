@@ -3,15 +3,21 @@
     display: flex;
     justify-content: space-between;
     background: pink;
-    padding: 0rem 6rem;
+    padding: 0 6rem;
     align-items: center;
+    height: 40px;
 }
 .topbar_heading{
  display: flex;
  justify-content: flex-start;
+ /* overflow: clip;
+ width: auto;
+ height: 50px; */
 }
-.topbar_heading h4{
-    font-size: 20px;
+.left_message{
+    font-size: 15px;
+    position: relative;
+    animation: mymove 1s infinite;
 }
 .topbar_menu{
     display: flex;
@@ -29,7 +35,7 @@
 }
 .topbar_menu li{
     
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     cursor: pointer;
     list-style: none;
     color: black;
@@ -59,7 +65,7 @@
         display: none;
     }
     .topbar{
-        padding: 1rem 2rem;
+        padding: 0 2rem;
     }
     .topbar_heading h4{
         font-size: 17px;
@@ -78,3 +84,7 @@
         
     }
 }
+@keyframes mymove {
+    from {bottom: -10px;}
+    to {top: 5px;}
+  }

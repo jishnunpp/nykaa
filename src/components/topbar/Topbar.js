@@ -11,7 +11,10 @@ const Topbar = () => {
   return (
     <div className='topbar'>
         <div className='topbar_heading'>
-            <h4>BEAUTY BONANZA Get Your Daily Does Of Amazing Deals!</h4>
+           <div className='left_message'>
+            <a>BEAUTY BONANZA Get Your Daily Does Of Amazing Deals!</a>
+
+            </div>
         </div>
         <div className='topbar_menu'>
             <ul className='topbar-links'>

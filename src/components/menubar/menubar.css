@@ -1,0 +1,54 @@
+.menubar{
+    
+   
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(233, 213, 213);
+        border-bottom: 4px solid rgb(204, 199, 199);
+        padding: 0 6rem;
+        align-items: flex-start;
+    }
+.menubar-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.menubar-links li{
+    font-size: 15px;
+    margin:0 1rem;
+    list-style: none;
+    color: rgb(138, 133, 133);
+    font-weight: 400;
+}
+.sale_btn button {
+ 
+    border-radius: 10px;
+    background: rgb(214, 47, 103);
+    color: #FFFF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+}
+.menubar a:hover{
+    padding-bottom: 1rem;
+    color: red;
+    border-bottom:3px solid red;
+}
+
+@media screen and (max-width:790px) {
+
+    .menubar-links li{
+        margin:0.5 0.5em;
+        font-size: 12px;
+    }
+    .menubar{
+        padding: 0;
+        margin: 0;
+    }
+    .menubar button{
+        display: none;
+    }
+}

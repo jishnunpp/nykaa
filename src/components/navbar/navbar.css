@@ -2,20 +2,26 @@
    
     display: flex;
     justify-content: space-between;
-    border: 1px solid gray;
-    padding: 1rem 6rem;
-    align-items: flex-start;
+   
+    padding: 0 6rem;
+    align-items: center;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-logo {
     display: flex;
     justify-content: flex-start;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .navbar-logo img {
     width: 90px;
     height: 30px;
+    padding-top: 10px;
     
   
 }
@@ -32,45 +38,124 @@
 
 
 .navbar-links li {
-    margin:0 0.5rem;
+    margin:0 1rem;
     cursor: pointer;
+    color: black;
     
         
 }
 .navbar-links a{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     text-align: left;
    
 }
 .navbar-links a:hover{
     color: red;
 }
-.navbar-sign input{
+.navbar-logo input{
     
-    padding: 1em 1rem;
+    padding: 1rem 1rem;
     width: auto;
-    margin: 0.5rem;
+    margin-left: 8rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background: rgb(243, 240, 240);
     border: none;
     border-radius: 5px;
 }
+.navbar-sign{
+    display: flex;
+   
+}
+
 .navbar-sign button{
     padding: 1em 1rem;
+    margin:0.5rem 1rem;
     border-radius: 10px;
-    background: rgb(214, 47, 103);
+    background: #E80071;;
     color: #FFFF;
     border: none;
+    position: relative;
+    min-width: 85px;
 }
 .navbar-sign button:hover{
     background-color: rgb(182, 93, 108);
    
 }
+.cart{
+   
+    padding: 1rem 1rem;
+}
+
+.login-btn {
+    width: 40%;
+    height: 3em;
+    background-color: rgb(32, 177, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.popup{
+    width: 320px;
+    height: 210px;
+    background-color:rgb(255, 255, 255);;
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+    transform:  translate(-50%, 0px);
+    box-shadow: rgba(0, 19, 37, 0.48) 0px 8px 32px;
+   
+}
+.heading_signin h3{
+    text-align:center;
+    padding: 0 ;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+p{
+    text-align: left;
+    color: rgb(138, 133, 133);
+    font-size: 15px;
+    
+}
+.popup button{
+ color:rgb(232, 0, 113);;
+ background-color: white;
+ width: 280px;
+ border: 1px solid gray;
+ margin: 0.5em 0;
+ font-weight: 800;
+ border-radius: 10px;
+
+}
+.popup button:hover{
+    background-color: whitesmoke;
+}
+.arrow{
+    position: absolute;
+    right: 10px;
+    bottom: 13px;   
+}
+
+
+
+
+
 @media screen and (max-width:990px){
     
     .navbar-logo img {
         width: 70px;
         height: 20px;
+        padding: 1rem 0;
 
       
     }
@@ -79,34 +164,40 @@
     }
     .navbar-links li{
         font-weight: 600;
-        font-size: 17px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+   
+    .navbar-logo input{
+        width: 50px;
+        margin-left: 3rem;
+    }
+        
 
        
+   
+    .popup{
+        transform:  translate(-65%, 0px);
     }
 }
 @media screen and (max-width:550px){
     .navbar-logo img {
         width: 10px;
         height: 10px;
-      
+        
     }
     .navbar{
         padding: 0rem 0rem;
     }
-    .navbar-sign input{
-        width: 25px;
-        margin-top: 20px;
-        margin-bottom: 4rem;
+   
+    
+  
+    .navbar-logo input{
+        width: 20px;
+        height: 10px;
         
     }
-    
-    .navbar-links li{
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        margin-left: 0;
-        
-        align-items:flex-end;
+    .navbar-sign button{
+       width: 30px;
     }
 }
