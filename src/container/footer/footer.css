@@ -1,0 +1,250 @@
+.footer{
+    
+    border-color: rgb(243, 243, 243);
+    margin: 2rem 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    position: relative;
+}
+.footer_first_section{
+    padding: 2.5rem 3rem;
+    display: flex;
+    background-color: rgb(58, 64, 71);
+    margin: auto;
+    justify-content: space-between;
+}
+.footer_first-div{
+    color: white;
+    padding: 0 30px;
+    line-height: 20px;
+    background-color: rgb(58, 64, 71);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+   
+}
+.footer_first-div  i{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.form{
+    margin-top: 1rem;
+}
+.form input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.form button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.mobile-apps{
+    text-align: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.mobile-apps img{
+    width: 100px;
+    height: 30px;
+    margin-top: 0.5rem;
+   
+}
+.footer_first-div2{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.phone-icon{
+    margin-right: 10px;
+}
+
+.available-time{
+    margin-top: 1rem;
+}
+@media screen and (max-width:800px) {
+    .footer_first_section{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer_first-div{
+        margin-bottom: 2rem;
+    }
+    
+}
+.footer_second-section{
+    background-color: rgb(140, 141, 148);
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+.second_section_div{
+   
+    padding: 0 3rem ;
+    list-style: none;
+    text-align: left;
+    margin: 1rem;
+   
+    
+    
+}
+.second_section_div img{
+    height: 40px;
+    width: 100px;
+    padding-top: 1rem;
+}
+.second_section_div h4{
+    font-size: 15px;
+
+}
+.second_section_div ul{
+    
+    padding: 0;
+}
+.second_section_div li{
+    
+    list-style: none;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    padding-left:0 ;
+}
+@media screen and (max-width:1000px){
+    .second_section_div{
+        padding: 0 1rem;
+    }
+
+}
+@media screen and (max-width:700px){
+    .footer_second-section{
+        padding: 1rem 3rem;
+        
+        flex-direction: column;
+        
+        
+    }
+
+}
+
+
+/*third footer */
+.footer_third-section{
+    padding: 2.5rem 3rem;
+    display: flex;
+}
+.third_section-div{
+    display: flex;
+    margin: 1rem;
+}
+.third_section-box{
+    display: flex;
+    margin: 0 2rem;
+}
+
+.third_div-heading{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    letter-spacing: -0.1px;
+    text-align: left;
+    margin: 0 15px 10px;
+
+}
+.third_div-text{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0;
+    padding-left: 15px;
+    
+}
+.third_section-box img{
+    height: 40px;
+    height: 40px;
+    
+}
+
+.third_section-icons{
+    margin: 0 1rem;
+}
+.social_media-heading{
+    
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.social-medias{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+@media screen and (max-width:1150px){
+    .footer_third-section{
+        padding:  0;
+    }
+    .third_section-box{
+       
+        margin: 1rem 0 ;
+    }
+    .third_section-icons{
+        margin: 1rem 0;
+    }
+   
+}
+@media screen and (max-width:850px){
+    .footer_third-section{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+/* FOURTH SECTION */
+
+
+.footer_fourth-section{
+    background-color: rgb(232, 0, 113);
+}
+.fourth_link-section{
+    margin: 1rem;
+   
+}
+.fourth_links{
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+.fourth_links li{
+    margin: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.fourth_copyright-section p{
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}

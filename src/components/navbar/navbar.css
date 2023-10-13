@@ -191,6 +191,13 @@ p{
         
     }
     .navbar-sign button{
-       width: 30px;
+       
+       padding-left: 0;
+       padding-right: 0;
     }
+    .cart{
+   
+        padding: 1rem 0;
+    }
+    
 }
