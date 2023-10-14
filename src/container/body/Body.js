@@ -5,7 +5,7 @@ import './body.css'
 import Topbar from '../../components/topbar/Topbar'
 import Navbar from '../../components/navbar/Navbar'
 import Menubar from '../../components/menubar/Menubar'
-
+import Responsive_nav from '../../components/responsive_bar/Responsive_nav'
 
 const Body = () => {
   return (
@@ -13,6 +13,7 @@ const Body = () => {
         <Topbar/>
         <Navbar/>
         <Menubar/>
+        {/* <Responsive_nav/> */}
         <div className='body-image'>
          <img src={body} alt='img'/>
         </div>

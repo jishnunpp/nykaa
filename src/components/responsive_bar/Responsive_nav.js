@@ -1,34 +1,13 @@
 import React from 'react'
-import './menubar.css'
+import './responsive_nav.css'
 import { GiHamburgerMenu, RiCloseLine } from 'react-icons/gi';
 import { BiShoppingBag } from 'react-icons/bi';
 import { CgProfile } from 'react-icons/cg';
 import { FiSearch } from 'react-icons/fi';
 
-const Menubar = () => {
-  return (
-    <>
-    <div className='menubar'>
-          <ul className='menubar-links'>
-            <li><a>Makeup</a></li>
-            <li><a>Skin</a></li>
-            <li><a>Hair</a></li>
-            <li><a>Appliances</a></li>
-            <li><a>Bath & Body</a></li>
-            <li><a>Natural</a></li>
-            <li><a>Mom & Baby</a></li>
-            <li><a>Health & Wellness</a></li>
-            <li><a>Men</a></li>
-            <li><a>Fragrance</a></li>
-            <li><a>Pop Ups</a></li>
-         </ul>
-         <div className='sale_btn'>
-         <button type='button' >SALE</button>
 
-         </div>
-      
-    </div>
-    {/* RESPONSIVE-NAVBAR */}
+const Responsive_nav = () => {
+  return (
     <div className='header'>
         <div className='navbar'>
             <div className='left-div'>
@@ -71,16 +50,7 @@ const Menubar = () => {
         </div>
       
     </div>
-
-
-
-
-
-
-
-
-    </>
   )
 }
 
-export default Menubar
+export default Responsive_nav

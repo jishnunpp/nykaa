@@ -60,31 +60,8 @@
     height: 20px;
     background: black;
 }
-@media screen and (max-width:990px){
-    .topbar_menu{
+@media screen and (max-width:1100px){
+    .topbar{
         display: none;
     }
-    .topbar{
-        padding: 0 2rem;
-    }
-    .topbar_heading h4{
-        font-size: 17px;
-    }
 }
-    
-
-@media screen and (max-width:550px){
-    
-    .topbar{
-        padding:0;
-    }
-    
-    .topbar_heading h4{
-        font-size: 14px;
-        
-    }
-}
-@keyframes mymove {
-    from {bottom: -10px;}
-    to {top: 5px;}
-  }
