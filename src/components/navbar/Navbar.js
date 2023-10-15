@@ -12,7 +12,7 @@ const Navbar = () => {
 
   
   return (
-    <div className='navbar'>
+    <div className='main_navbar'>
 
       <div className='section'>
         <div className='navbar-logo'>
