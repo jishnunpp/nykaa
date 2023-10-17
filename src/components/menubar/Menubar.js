@@ -1,6 +1,7 @@
 import React from 'react'
 import './menubar.css'
 import { GiHamburgerMenu, RiCloseLine } from 'react-icons/gi';
+import { AiOutlineClose } from 'react-icons/ai';
 import { BiShoppingBag } from 'react-icons/bi';
 import { CgProfile } from 'react-icons/cg';
 import { FiSearch } from 'react-icons/fi';
@@ -8,6 +9,7 @@ import { useState } from 'react'
 
 const Menubar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const [toggleitem, settoggleitem] = useState(false);
   return (
     <>
     <div className='menubar'>
@@ -77,9 +79,10 @@ const Menubar = () => {
 
     {toggleMenu && (
         <div className="reponsive-menu ">
+            <div className='close-btn'><AiOutlineClose onClick={() => setToggleMenu(false)}/> </div>
             <div className='menu_header-button'>
                 <button className='button_heading-one'>Categories</button>
-                <button className='button_heading-two'>Brand</button>
+                <button className='button_heading-two' onClick={() => settoggleitem(true)}>Brand</button>
 
             </div>
             <div className='menu-items'>
@@ -115,6 +118,113 @@ const Menubar = () => {
           
         </div>
         )}
+         {toggleitem && (
+        <div className="reponsive-menu ">
+            <div className='close-btn'><AiOutlineClose onClick={() => settoggleitem(false)}/> </div>
+            <div className='menu_header-button'>
+                <button className='button_heading_brand-one'onClick={() => settoggleitem(false)}>Categories</button>
+                <button className='button_heading_brand-two' >Brand</button>
+
+            </div>
+            <div className='brand-items'>
+                <div className='brands'>
+                    <div>
+                     <div id='top'className='section-heading'>topbrands</div>
+                     <div className='brand-list'>
+                        <a>Lakeme</a>
+                        <a>Biotique</a>
+                        <a>Ponds</a>
+                        <a>Clinque</a>
+                         <a>VLCC</a>
+                         <a>Plum</a>
+                     </div>
+                    </div>
+                    <div>
+                     <div id='#'className='section-heading'>#</div>
+                     <div className='brand-list'>
+                        <a>18.21 Man Made</a>
+                        <a>18m32</a>
+                        <a>2.0h</a>
+                        <a>23 Yards</a>
+                         
+                     </div>
+                    </div>
+                    <div>
+                     <div id='a' className='section-heading'>A</div>
+                     <div className='brand-list'>
+                        <a>A clutch story</a>
+                        <a>A fragrance story</a>
+                        <a>A-Derma</a>
+                        <a>A'kin</a>
+                         <a>Aadiva</a>
+                         <a>Alum</a>
+                     </div>
+                    </div>
+                    <div  id='b'className='section-heading'>B</div>
+                     <div className='brand-list'>
+                        <a>B.box</a>
+                        <a>Babila</a>
+                        <a>Baby alive</a>
+                        <a>Baby Mob</a>
+                         <a>Baby chakra</a>
+                         <a>Baby ka</a>
+                     </div>
+                     <div id='c' className='section-heading'>C</div>
+                     <div className='brand-list'>
+                        <a>c2p-pro</a>
+                        <a>c9-airwear</a>
+                        <a>callesta</a>
+                        <a>calvados</a>
+                         <a>calvin kelvin</a>
+                         <a>caprico</a>
+                     </div>
+                    
+                    
+                          
+                    
+                    
+
+                </div>
+                <div className='letters'>
+                  <a href='#top' >Top</a>
+                  <a href='##' >#</a>
+                  <a href='#a' >A</a>
+                  <a href='#b' >B</a>
+                  <a href='#c' >C</a>
+                  <a href='#a' >D</a>
+                  <a href='#a' >E</a>
+                  <a href='#a' >F</a>
+                  <a href='#a' >G</a>
+                  <a href='#a' >H</a>
+                  <a href='#a' >I</a>
+                  <a href='#a' >J</a>
+                  <a href='#a' >K</a>
+                  <a href='#a' >L</a>
+                  <a href='#a' >M</a>
+                  <a href='#a' >N</a>
+                  <a href='#a' >O</a>
+                  <a href='#a' >P</a>
+                  <a href='#a' >Q</a>
+                  <a href='#a' >R</a>
+                  <a href='#a' >S</a>
+                  <a href='#a' >T</a>
+                  <a href='#a' >U</a>
+                  <a href='#a' >W</a>
+                  <a href='#a' >X</a>
+                  <a href='#a' >Y</a>
+                  <a href='#a' >Z</a>
+                  
+               
+
+                   
+                </div>
+
+            </div>
+          
+        </div>
+        )}
+
+
 
 
 
