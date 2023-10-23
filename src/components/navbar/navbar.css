@@ -5,6 +5,7 @@
     
     padding: 0 6rem;
     align-items: center;
+    position: relative;
 }
 .section {
     display: flex;
@@ -53,16 +54,166 @@
 .navbar-links a:hover{
     color: red;
 }
-.navbar-logo input{
+
+.brand_items-nav{
+    width: 350px;
+    height: 400px;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    top: 50px;
+    left: 6rem;
     
-    padding: 1rem 1rem;
+}
+.input_brand-nav{
+    display: flex;
+    align-items: center;
+    width: auto;
+    
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+   
+    box-sizing: border-box;
+    padding: 8px 12px;
+ 
+}
+.input_brand-nav input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin-left: 12px;
+}
+.brand_options{
+    display: flex;
+    flex-direction: row;
+}
+.brands-nav{
+    width: 80%;
+    overflow-y: scroll;
+}
+.letters-nav{
+    
+        display: flex;
+        flex-direction: column;
+        overflow-y:hidden;
+        width: 20%;
+ 
+}
+.letters-nav a{
+    color: rgb(43, 37, 40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* INPUT BOX */
+.div-input{
+    display: flex;
+    align-items: center;
     width: auto;
     margin-left: 8rem;
-   
     background: rgb(243, 240, 240);
     border: none;
     border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    position: relative;
+    
+    
+
 }
+
+.search_input-nyka{
+    outline: none;
+    background: rgb(243, 240, 240);
+    border: none;
+    margin-left: 12px;
+}
+
+   
+ .nav-input {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    margin-left: 8rem;
+
+ }   
+
+   
+.input_box{
+    position: absolute;
+    background-color:rgb(255, 255, 255);
+    color: rgb(63, 65, 77);
+    max-height: 547px;
+    width: 375px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 67px -19px;
+    
+
+   
+}
+.color-box {
+    width: 375px;
+    border-color: #E80071;
+    display: flex;
+    align-items: center;
+    background: rgb(243, 240, 240);
+    
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px 12px;
+   
+}
+.heading-box{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.heading-box h4 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(99, 99, 99);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    height: 24px;
+
+}
+.input-options{
+    list-style: none;
+}
+.input-options li{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: rgb(58, 64, 71);
+    margin: 0;
+}
+.option-icon{
+    height: 24px;
+    width: 24px;
+    margin-right: 14px;
+}
+.options{
+    color: rgb(0, 19, 37);
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+
+
+/* BUTTON AND CART */
 .navbar-sign{
     display: flex;
    
