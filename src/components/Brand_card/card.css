@@ -1,0 +1,65 @@
+.main_card{
+    
+    padding: 1rem 3rem;
+}
+.card-heading h2{
+    color: #001325;
+    padding: 1rem 0rem 0rem 0rem;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    
+    
+}
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.card{
+    border: 1px solid gainsboro;
+    width: 400px;
+    height: 260px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+    
+}
+.image_card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.image_card img{
+    display: inline-block;
+    width: 100%;
+    vertical-align: bottom;
+    min-height: 167px;
+}
+.card-text{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.card-text h2{
+    color: #E80071;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+.card-text p{
+    color: #5C6873;
+    font-size: 16px;
+    font-weight: 500;  
+    margin: 0;
+} 
+   
+   
+    
+   
