@@ -5,20 +5,22 @@ import './body.css'
 import Carosuel_card from '../../components/carousel_card/Carosuel_card'
 import Header from '../header/Header'
 import Card from '../../components/Brand_card/Card'
-
+import Supplemets from '../../components/suppliments/Supplemets'
+import Profile from '../profile/Profile'
+import Footer from '../footer/Footer'
 
 const Body = () => {
   return (
     <div className='body'>
         <Header/>
+        {/* <Profile/> */}
         <Carosuel_card/>
         <Card/>
+        <Supplemets/>
         
         
-    
-        {/* <div className='body-image'>
-         <img src={body} alt='img'/>
-        </div> */}
+        <Footer/>
+        
         <div>
 
         </div>

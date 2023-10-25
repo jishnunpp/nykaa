@@ -1,12 +1,13 @@
 
 import './App.css';
-import Menubar from './components/menubar/Menubar';
-import Navbar from './components/navbar/Navbar';
+import Body from './container/body/Body';
+
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Signin from './components/sign in/Signin';
-import Topbar from './components/topbar/Topbar';
-import Body from './container/body/Body';
-import Footer from './container/footer/Footer';
+import Profile from './container/profile/Profile';
+import Myprofile from './components/Profile_data/my_profile/Myprofile';
+import Wishlist from './components/Profile_data/wishlist/Wishlist';
+
 
 const appRouter = createBrowserRouter([
   {
@@ -17,7 +18,22 @@ const appRouter = createBrowserRouter([
   {
     path:'login',
     element:<Signin/>,
-  }
+  },
+  {
+    path: "Profile",
+    element: <Profile/>,
+    children: [
+      {
+        path: 'Myprofile',
+        element: <Myprofile/>
+      },
+      {
+        path:'wishlist',
+        element:< Wishlist/>,
+      }
+    ],
+   
+  },
 ]);
 
 
@@ -27,7 +43,7 @@ function App() {
      
      <RouterProvider router={appRouter} />
      
-     <Footer/>
+     
     </div>
   );      
 }
