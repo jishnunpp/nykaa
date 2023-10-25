@@ -1,14 +1,17 @@
+.carosuel-section{
+    padding: 0.5rem 3rem;
+}
 .carousel{
     overflow: hidden;
     background-color:white;
-    padding: 40px 20px;      
+     
 }
 
 .image_carousel{
    position: relative;
 }
 .image_carousel img{
-    width: 500px;
+    width: 490px;
     height: 300px;
     border-radius: 10px; 
 }
@@ -65,4 +68,14 @@
         height: 150px;
         border-radius: 10px; 
     }
+}
+.carousel_bottom-images{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+   
+}
+.bottom-images img{
+    border-radius: 10px; 
+    width: 100%;
 }

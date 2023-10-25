@@ -13,6 +13,7 @@ const Carosuel_card = () => {
     slidesToScroll: 1,
   };
   return (
+    <div  className="carosuel-section"> 
     <div className="carousel">
       <div className="carousel-container">
         <Slider {...settings}>
@@ -30,6 +31,23 @@ const Carosuel_card = () => {
           ))}
         </Slider>
       </div>
+    </div>
+    <div className='carousel_bottom-images'>
+      <div className="bottom-images">
+      
+        <img src="https://images-static.nykaa.com/uploads/c1945274-ed2c-4c7e-b973-e9acffc47f88.jpg?tr=w-600,cm-pad_resize" alt="skin-primary-focus" loading="eager" srcset="https://images-static.nykaa.com/uploads/c1945274-ed2c-4c7e-b973-e9acffc47f88.jpg?tr=w-1200,cm-pad_resize 2x"/>
+     
+      </div>
+      <div  className="bottom-images">
+   
+        <img src="https://images-static.nykaa.com/uploads/c97b5ef0-1384-46da-8d74-cf581e9574fb.jpg?tr=w-600,cm-pad_resize" alt="fragrance-primary-focus" loading="eager" srcset="https://images-static.nykaa.com/uploads/c97b5ef0-1384-46da-8d74-cf581e9574fb.jpg?tr=w-1200,cm-pad_resize 2x"/>
+     
+      </div>
+    </div>
+
+
+
+
     </div>
   );
 };
