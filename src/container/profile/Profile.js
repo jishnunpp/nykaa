@@ -4,6 +4,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import { Outlet } from "react-router-dom";
 import Header from "../header/Header";
 
+
+
 const Profile = () => {
   return (
     <div className="profile">
