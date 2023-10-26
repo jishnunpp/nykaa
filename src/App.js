@@ -7,7 +7,10 @@ import Signin from './components/sign in/Signin';
 import Profile from './container/profile/Profile';
 import Myprofile from './components/Profile_data/my_profile/Myprofile';
 import Wishlist from './components/Profile_data/wishlist/Wishlist';
-
+import Wallet from './components/Profile_data/wallet/Wallet';
+import Orders from './components/Profile_data/my_orders/Orders';
+import Savedpayment from './components/Profile_data/saved_payment/Savedpayment';
+import Logout from './components/Profile_data/logout/Logout';
 
 const appRouter = createBrowserRouter([
   {
@@ -28,8 +31,23 @@ const appRouter = createBrowserRouter([
         element: <Myprofile/>
       },
       {
-        path:'wishlist',
+        path:'wallet',
+        element:< Wallet/>,
+      },
+      {
+        path: 'orders',
+        element: <Orders />
+      },
+      {
+        path:'whishlist',
         element:< Wishlist/>,
+      }, {
+        path: 'savedpayment',
+        element: <Savedpayment/>
+      },
+      {
+        path:'logout',
+        element:< Logout/>,
       }
     ],
    

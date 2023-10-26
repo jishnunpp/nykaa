@@ -1,0 +1,97 @@
+.my_profile{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    
+}
+.my_profile-details{
+    background: url(https://preprod-cdnr.nykaa.com/assets/desktop/images/my_account/myaccountbg.png) 50% center / cover no-repeat rgb(255, 255, 255);
+    margin:0 2rem ;
+    
+    height: 275px;
+    width: 750px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.my_profile-card{
+    position: absolute;
+    background-color: white;
+  
+    display: flex;
+    padding: 10px ;
+}
+.my_profile_card-image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.my_profile_card-editicon {
+    margin-top: 0;
+    cursor: pointer;
+    text-align: right;
+}
+.my_profile_card-editicon span{
+    margin-left: 5px;
+}
+.my_profile_card-details{
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.my_profile_card-details h2,p{
+    margin: 0;
+    padding: 5px 0;
+}
+.my_profile_form-feild{
+    padding-bottom: 2rem;
+   
+    border-bottom: 1px solid rgb(231, 213, 213)
+}
+.my_profile_form-heading{
+    padding:0 2rem;
+}
+.my_profile-icon {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.my_profile_form-heading1{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    vertical-align:top;
+}
+.my_profile_form-heading2{
+    font-size: 17px;
+   vertical-align: top;
+    text-transform: uppercase;
+}
+.my_profile_form-feild{
+    margin-top: 1rem;
+}
+.my_profile_form-address{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border: 1px solid gainsboro;
+    
+    padding: 1rem;
+}
+
+
+
+
+
+
+.my_profile-form{
+    margin:0 2rem ;
+    padding: 2rem 1rem;
+    background-color: white;
+}
+.my_profile_form-heading{
+    display: flex;
+    justify-content: space-between;
+}
