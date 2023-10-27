@@ -248,7 +248,8 @@
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    
+    position: absolute;
+    z-index: 1;
     transform:  translate(-50%, 0px);
     box-shadow: rgba(0, 19, 37, 0.48) 0px 8px 32px;
    
