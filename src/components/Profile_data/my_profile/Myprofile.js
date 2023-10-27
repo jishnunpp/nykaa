@@ -7,6 +7,7 @@ import { GrClose } from "react-icons/gr";
 
 const Myprofile = () => {
   const [edit, setEdit] = useState(false);
+  const [address, setAddress] = useState(false);
   return (
     <div className="my_profile">
       <div className="my_profile-details">
@@ -92,28 +93,35 @@ const Myprofile = () => {
                     </div>
                   </div>
                   <div className="edit_form_details-section">
-                  <label for="fname">First name:</label><br />
-                 
-                  <input type="text" id="fname" name="fname" />
+                    <label for="fname">First name:</label>
+                    <br />
+
+                    <input type="text" id="fname" name="fname" />
                   </div>
                   <div className="edit_form_details-section">
-                  <label for="lname">Mobile:</label><br />
-                 
-                  <input type="number" id="lname" name="lname" /> 
+                    <label for="lname">Mobile:</label>
+                    <br />
+
+                    <input type="number" id="lname" name="lname" />
                   </div>
                   <div className="edit_form_details-section">
-                  <p>Add Email</p>
-                  
-                  <input type="email" placeholder="E-mail Address" id="fname" name="fname" />
+                    <p>Add Email</p>
+
+                    <input
+                      type="email"
+                      placeholder="E-mail Address"
+                      id="fname"
+                      name="fname"
+                    />
                   </div>
                   <div className="edit_form_details-section">
-                  <label for="lname">DOB:</label><br />
-                  
-                  <input type="date" id="lname" name="lname" />
+                    <label for="lname">DOB:</label>
+                    <br />
+
+                    <input type="date" id="lname" name="lname" />
                   </div>
                   <div className="edit_form-button">
-
-                  <button  className="edit_form-button">DONE</button>
+                    <button className="edit_form-button">DONE</button>
                   </div>
                 </form>
               </div>
@@ -129,7 +137,12 @@ const Myprofile = () => {
           </div>
           <div>
             <PiPencilSimpleDuotone className="my_profile-icon" />
-            <span className="my_profile_form-heading2">add new addres</span>
+            <button
+              className="my_profile_form-heading2"
+              onClick={() => setAddress(true)}
+            >
+              add new addres
+            </button>
           </div>
         </div>
         <div className="my_profile_form-feild">
@@ -138,6 +151,58 @@ const Myprofile = () => {
           </div>
         </div>
       </div>
+      {address && (
+        <div className="address">
+          <div className="edit_close-icon" onClick={() => setAddress(false)}>
+            <GrClose />
+          </div>
+          <div className="address_input-section">
+            <label for="fname">Select country</label>
+            <br />
+
+            <select id="country" name="countrylist" form="ctnry">
+              <option value="volvo">India</option>
+              <option value="saab">Saab</option>
+              <option value="opel">Opel</option>
+              <option value="audi">Audi</option>
+            </select>
+          </div>
+
+          <div className="address_input-section">
+            <label for="lname">Name</label>
+            <br />
+            <input type="text" id="lname" name="lname" />
+          </div>
+          <div className="address_input-section ">
+            <label for="lname">Mobile Number</label>
+            <br />
+            <input type="number" id="lname" name="lname" />
+          </div>
+          <div className="address_input-section ">
+            <label for="lname">Postal code</label>
+            <br />
+            <input type="number" id="lname" name="lname" />
+          </div>
+          <textarea
+            placeholder="Address"
+            className="address_text-section "
+          ></textarea>
+          <div className="address_input-checkbox ">
+            <input
+              type="checkbox"
+              id="address"
+              name="address"
+              value="address"
+            />
+            <label for="vehicle1">
+              Use this as my default shipping address
+            </label>
+          </div>
+          <div className="address-button">
+            <button>Add Address</button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
