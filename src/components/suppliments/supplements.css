@@ -1,6 +1,7 @@
 .supplements{
     background-color: white;
     padding: 1rem 3rem;
+    overflow: hidden;
 }
 .suppliments_offer-image img{
     width: 100%;
@@ -34,30 +35,7 @@
     font-weight: 400;
 }
 
-.slick-arrow.slick-prev{
-   
-    
-    
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    position: absolute;
-    margin-left: 1.5rem;
-    z-index: 2;
-}
-.slick-arrow.slick-next{
-   
-    
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    position: absolute;
-    margin-right: 1.5rem;
 
-}
-.slick-arrow.slick-next:hover{
-    background-color: rgb(172, 160, 160);
-}
 
 @media screen and (max-width:1200px) {
     .supplements{
