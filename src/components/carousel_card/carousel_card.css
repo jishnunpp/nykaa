@@ -45,13 +45,14 @@
 
 .slick-arrow.slick-prev{
    
-    background-color:gainsboro;
+    background-color:rgb(245, 239, 239);
     
     width: 50px;
     height: 50px;
     border-radius: 20px;
     position: absolute;
     margin-left: 1.5rem;
+    z-index: 2;
 }
 .slick-arrow.slick-next{
     background-color:gainsboro;
