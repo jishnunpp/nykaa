@@ -1,9 +1,11 @@
 .carosuel-section{
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
+    background-color:white;
+    
 }
 .carousel{
     overflow: hidden;
-    background-color:white;
+   
      
 }
 
@@ -14,6 +16,7 @@
     width: 490px;
     height: 260px;
     border-radius: 10px; 
+   
 }
 .image_card-text{
  position: absolute;
@@ -43,43 +46,82 @@
 .slick-arrow.slick-prev{
    
     background-color:gainsboro;
-    width: 50px;
-    height: 50px;
-   
-
-}
-.slick-arrow.slick-next{
-    background-color:gainsboro;
+    
     width: 50px;
     height: 50px;
     border-radius: 20px;
+    position: absolute;
+    margin-left: 1.5rem;
+}
+.slick-arrow.slick-next{
+    background-color:gainsboro;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    margin-right: 1.5rem;
 
 }
 .slick-arrow.slick-next:hover{
     background-color: rgb(172, 160, 160);
 }
-@media screen and  (max-width:1250px) {
-    .image_carousel img{
-        width: 400px;
-        height: 300px;
-        border-radius: 10px; 
-    }
-}
-
-@media screen and  (max-width:1000px) {
-    .image_carousel img{
-        width: 300px;
-        height: 150px;
-        border-radius: 10px; 
-    }
-}
 .carousel_bottom-images{
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;
+    flex-direction: row;
+    padding-top: 1rem ;
    
 }
 .bottom-images img{
     border-radius: 10px; 
     width: 100%;
 }
+
+
+
+@media screen and  (max-width:1050px) {
+    .image_carousel img{
+        width: 350px;
+        height: 250px;
+        border-radius: 10px; 
+    }
+    .carousel_bottom-images{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+       
+    }
+    .carosuel-section{
+       
+            
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+       
+   }
+}
+
+@media screen and  (max-width:700px) {
+    .image_carousel img{
+        width: 100%;
+        
+        border-radius: 10px; 
+    }
+    .image_card-text h2{
+       font-size: 20px;
+       
+    }
+    .image_card-text p{
+        font-size: 15px;
+    }
+    .carousel_bottom-images{
+        padding: 1rem 1.5rem;
+    }
+    .carousel_bottom-images img{
+        margin-top: 10px;
+    }
+   
+  
+}
+

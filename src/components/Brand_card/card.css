@@ -1,11 +1,11 @@
 .main_card{
    
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     background-color: white;
 }
 .card-heading h2{
     color: #001325;
-    padding: 1rem 0rem 0rem 0rem;
+    margin: 0;
     font-size: 24px;
     font-weight: 600;
     text-align: left;
@@ -15,13 +15,13 @@
 .card-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   
 }
 .card{
     border: 1px solid gainsboro;
-    width: 400px;
+    width: 410px;
     height: 280px;
     margin-top: 20px;
     border-radius: 10px;
@@ -68,13 +68,13 @@
         display: flex;
         padding:0 5px ;
         flex-direction: column;
-        max-width: 300px;
+        max-width: 420px;
         margin-left: auto;
         margin-right: auto;
     }
     .card-heading h2{
         color: #001325;
-        padding-left:10px;
+        padding-left:20px;
         padding-bottom: 10px;
         margin: 0;
         font-size: 18px;
@@ -91,9 +91,9 @@
     
     .card{
         
-        width: 280px;
-        height: 200px;
-        margin-top: 0;
+        width: 380px;
+        height: 250px;
+        margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
     }   

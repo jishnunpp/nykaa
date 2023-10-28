@@ -7,11 +7,37 @@ import Slider from "react-slick";
 const Carosuel_card = () => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 2.5,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1050,
+        settings: {
+          slidesToShow: 1.5,
+          slidesToScroll:1.5,
+          infinite: true,
+          dots: true,
+          autoplay: true,
+          speed: 500,
+          autoplaySpeed: 5000,
+        }
+      },
+     
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          speed: 500,
+          autoplaySpeed: 5000,
+        }
+      }
+    ]
   };
+  
   return (
     <div  className="carosuel-section"> 
     <div className="carousel">

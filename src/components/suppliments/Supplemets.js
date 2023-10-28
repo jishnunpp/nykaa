@@ -12,6 +12,20 @@ const Supplemets = () => {
         speed: 500,
         slidesToShow: 7,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1050,
+            settings: {
+              slidesToShow: 3.5,
+              slidesToScroll:1,
+              infinite: true,
+              dots: true,
+              
+            }
+          },
+         
+         
+        ]
       };
   return (
     <div className='supplements'>
@@ -34,10 +48,7 @@ const Supplemets = () => {
             
               <div className="supplements_carousel">
                 <img src={d.img} alt={d.offer} />
-                <div className="supplements-text">
                 
-                <p>{d.text}</p>
-                </div>
                 
               </div>
            
