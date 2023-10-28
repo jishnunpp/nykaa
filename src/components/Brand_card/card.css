@@ -1,6 +1,7 @@
 .main_card{
-    
+   
     padding: 1rem 3rem;
+    background-color: white;
 }
 .card-heading h2{
     color: #001325;
@@ -40,7 +41,7 @@
     display: inline-block;
     width: 100%;
     vertical-align: bottom;
-    min-height: 167px;
+   
 }
 .card-text{
     padding-top: 10px;
@@ -62,5 +63,53 @@
 } 
    
    
+@media screen and (max-width:1050px) {
+    .main_card{
+        display: flex;
+        padding:0 5px ;
+        flex-direction: column;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-heading h2{
+        color: #001325;
+        padding-left:10px;
+        padding-bottom: 10px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        
+        
+    }
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
+    .card{
+        
+        width: 280px;
+        height: 200px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .card-text{
+        padding: 10px;
+    } 
+    .card-text h2{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .card-text p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+        
+        
+    
+} 
    

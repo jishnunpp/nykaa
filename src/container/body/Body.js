@@ -14,10 +14,13 @@ const Body = () => {
     <div className='body'>
         <Header/>
         {/* <Profile/> */}
+        <div className='body-content'>
         <Carosuel_card/>
         <Card/>
         <Supplemets/>
         
+        </div>
+      
         
         <Footer/>
         

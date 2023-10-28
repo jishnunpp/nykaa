@@ -162,9 +162,9 @@ const Myprofile = () => {
 
             <select id="country" name="countrylist" form="ctnry">
               <option value="volvo">India</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
+              <option value="saab">America</option>
+              <option value="opel">China</option>
+              <option value="audi">Russia</option>
             </select>
           </div>
 

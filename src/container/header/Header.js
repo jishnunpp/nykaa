@@ -1,7 +1,7 @@
 import React from 'react'
-import Topbar from '../../components/topbar/Topbar'
-import Navbar from '../../components/navbar/Navbar'
-import Menubar from '../../components/menubar/Menubar'
+import Topbar from '../../components/Navbars/topbar/Topbar'
+import Navbar from '../../components/Navbars/navbar/Navbar'
+import Menubar from '../../components/Navbars/menubar/Menubar'
 
 const Header = () => {
   return (

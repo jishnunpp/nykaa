@@ -247,7 +247,7 @@
 .address_text-section{
     margin: 1rem 0;
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 .address_input-checkbox {
     display: flex;
@@ -264,5 +264,5 @@
  padding: 1rem;
  outline: none;
  border: none;
- background-color: gray;
+ background-color: rgb(153, 144, 144);
 }
