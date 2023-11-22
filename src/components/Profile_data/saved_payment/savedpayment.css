@@ -1,21 +1,21 @@
-.savedpayment{
-    background-color: white;
-    margin:0 2rem;
-    padding: 1rem;
-    margin-top: 0;
-    width:750px ;
+.savedpayment {
+  background-color: white;
+  margin: 0 2rem;
+  padding: 1rem;
+  margin-top: 0;
+  width: 750px;
 }
-.savedpayment-heading{
-    border-bottom: 1px solid gainsboro;  
+.savedpayment-heading {
+  border-bottom: 1px solid gainsboro;
 }
-.savedpayment-heading h2{
-    font-size: 35px;
-    font-weight: 500;
-    margin: 0;
-    padding: 1rem;
-   }
-.savedpayment-details h3{
-    font-size: 20px;
-    font-weight: 500;
-    padding: 6rem;
+.savedpayment-heading h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+  padding: 1rem;
+}
+.savedpayment-details h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6rem;
 }

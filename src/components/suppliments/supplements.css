@@ -1,55 +1,47 @@
-.supplements{
-    background-color: white;
-    padding: 1rem 3rem;
-    overflow: hidden;
+.supplements {
+  background-color: white;
+  padding: 1rem 3rem;
+  overflow: hidden;
 }
-.suppliments_offer-image img{
-    width: 100%;
+.suppliments_offer-image img {
+  width: 100%;
 }
-.suppliments_banner-text p{
-    color: #001325;
-    font-weight: 600;
-    text-align: left;
-    font-size: 24px;
-    padding: 1rem 0px 0px 0px;
-      
+.suppliments_banner-text p {
+  color: #001325;
+  font-weight: 600;
+  text-align: left;
+  font-size: 24px;
+  padding: 1rem 0px 0px 0px;
 }
-.suppliments_banner-image img{
-    width: 100%;
-    margin: 0;
+.suppliments_banner-image img {
+  width: 100%;
+  margin: 0;
 }
-.carousel_supplements-container{
-    padding-top: 2rem;
+.carousel_supplements-container {
+  padding-top: 2rem;
 }
 
-.supplements_carousel img{
+.supplements_carousel img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.supplements-text p {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+  .supplements {
+    padding: 0 1rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .supplements_carousel img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-  
-}
-.supplements-text p{
-   
-    color: black;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
-
-@media screen and (max-width:1200px) {
-    .supplements{
-        
-        padding:0 1rem ;
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        }
-        .supplements_carousel img{
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-          
-        }
-       
+  }
 }

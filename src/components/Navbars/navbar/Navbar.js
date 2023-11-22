@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import logo from "../../../assets/logo1.png";
-import "./navbar.css";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
-import { GrClose } from "react-icons/gr";
-import { Link } from "react-router-dom";
-import { FiSearch } from "react-icons/fi";
+import React, { useState } from 'react';
+import logo from '../../../assets/logo1.png';
+import './navbar.css';
+import { HiOutlineShoppingBag } from 'react-icons/hi2';
+import { GrClose } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
+import { FiSearch } from 'react-icons/fi';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -245,7 +245,7 @@ const Navbar = () => {
           <div className="popup">
             <div className="heading_signin">
               <div className="close-btn" onClick={() => setToggleMenu(false)}>
-                {" "}
+                {' '}
                 <GrClose />
               </div>
               <h3>Login / Create Account </h3>
@@ -257,7 +257,7 @@ const Navbar = () => {
             </div>
             <div>
               <Link to="login">
-                {" "}
+                {' '}
                 <button type="button">
                   Sign in with Mobile / Email
                   <div className="arrow">

@@ -1,67 +1,58 @@
-.topbar{
-    
-    display: flex;
-    justify-content: space-between;
-    background: pink;
-    padding: 0 6rem;
-    align-items: center;
-    height: 40px;
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background: pink;
+  padding: 0 6rem;
+  align-items: center;
+  height: 40px;
 }
-.topbar_heading{
- display: flex;
- justify-content: flex-start;
- /* overflow: clip;
+.topbar_heading {
+  display: flex;
+  justify-content: flex-start;
+  /* overflow: clip;
  width: auto;
  height: 50px; */
 }
-.left_message{
-    font-size: 15px;
-    position: relative;
-    animation: mymove 1s infinite;
+.left_message {
+  font-size: 15px;
+  position: relative;
+  animation: mymove 1s infinite;
 }
-.topbar_menu{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.topbar_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.topbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  list-style: none;
 }
-.topbar-links{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    list-style: none;
-}
-.topbar_menu li{
-    
-    margin: 0 0.5rem;
-    cursor: pointer;
-    list-style: none;
-    color: black;
-    align-items: center;
-    
+.topbar_menu li {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  list-style: none;
+  color: black;
+  align-items: center;
 }
 
-.topbar_menu a:hover{
-   color: red;
+.topbar_menu a:hover {
+  color: red;
 }
-.topbar_menu span{
-   
-   margin-right: .5rem;
-
+.topbar_menu span {
+  margin-right: 0.5rem;
 }
 
-
-
-
-.topbar_menu div{
-    width: 1px;
-    height: 20px;
-    background: black;
+.topbar_menu div {
+  width: 1px;
+  height: 20px;
+  background: black;
 }
-@media screen and (max-width:1200px){
-    .topbar{
-        display: none;
-    }
+@media screen and (max-width: 1200px) {
+  .topbar {
+    display: none;
+  }
 }

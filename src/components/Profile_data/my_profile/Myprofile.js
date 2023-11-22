@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import "./myprofile.css";
-import { PiPencilSimpleDuotone } from "react-icons/pi";
-import { ImHome3 } from "react-icons/im";
-import { GrClose } from "react-icons/gr";
+import './myprofile.css';
+import { PiPencilSimpleDuotone } from 'react-icons/pi';
+import { ImHome3 } from 'react-icons/im';
+import { GrClose } from 'react-icons/gr';
 
 const Myprofile = () => {
   const [edit, setEdit] = useState(false);
@@ -18,7 +18,7 @@ const Myprofile = () => {
           <div className="my_profile_card-data">
             <div className="my_profile_card-editicon">
               <button onClick={() => setEdit(true)}>
-                {" "}
+                {' '}
                 <PiPencilSimpleDuotone />
                 <span>Edit</span>
               </button>

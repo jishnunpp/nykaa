@@ -1,19 +1,19 @@
-import React from "react";
-import "./sidebar.css";
-import { CgProfile } from "react-icons/cg";
-import { IoWallet } from "react-icons/io5";
-import { CiDeliveryTruck } from "react-icons/ci";
-import { BsFillHeartFill } from "react-icons/bs";
-import { GiWallet } from "react-icons/gi";
-import { IoMdLogOut } from "react-icons/io";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './sidebar.css';
+import { CgProfile } from 'react-icons/cg';
+import { IoWallet } from 'react-icons/io5';
+import { CiDeliveryTruck } from 'react-icons/ci';
+import { BsFillHeartFill } from 'react-icons/bs';
+import { GiWallet } from 'react-icons/gi';
+import { IoMdLogOut } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div>
-        <div className="sidebar-section ">
-          <Link to={"Myprofile"}>
+      
+        <div className="sidebar-section active">
+          <Link to={'Myprofile'}>
             <a>
               <i>
                 <CgProfile className="sidebar-icon" />
@@ -23,7 +23,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <div className="sidebar-section">
-          <Link to={"wallet"}>
+          <Link to={'wallet'}>
             <a>
               <i>
                 <IoWallet className="sidebar-icon" />
@@ -33,7 +33,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <div className="sidebar-section">
-          <Link to={"orders"}>
+          <Link to={'orders'}>
             <a>
               <i>
                 <CiDeliveryTruck className="sidebar-icon" />
@@ -43,7 +43,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <div className="sidebar-section">
-          <Link to={"whishlist"}>
+          <Link to={'whishlist'}>
             <a>
               <i>
                 <BsFillHeartFill className="sidebar-icon" />
@@ -53,7 +53,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <div className="sidebar-section">
-          <Link to={"savedpayment"}>
+          <Link to={'savedpayment'}>
             <a>
               <i>
                 <GiWallet className="sidebar-icon" />
@@ -63,7 +63,7 @@ const Sidebar = () => {
           </Link>
         </div>
         <div className="sidebar-section">
-          <Link to={"logout"}>
+          <Link to={'logout'}>
             <a>
               <i>
                 <IoMdLogOut className="sidebar-icon" />
@@ -72,7 +72,7 @@ const Sidebar = () => {
             </a>
           </Link>
         </div>
-      </div>
+      
     </div>
   );
 };

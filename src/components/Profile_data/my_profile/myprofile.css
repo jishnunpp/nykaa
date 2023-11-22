@@ -1,268 +1,256 @@
-.my_profile{
-    margin:0;
-    padding: 0;
-    width: 100%;
-   
-   
+.my_profile {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.my_profile-details {
+  background: url(https://preprod-cdnr.nykaa.com/assets/desktop/images/my_account/myaccountbg.png)
+    50% center / cover no-repeat rgb(255, 255, 255);
+  margin: 0 2rem;
 
-    
+  height: 275px;
+  width: 750px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.my_profile-details{
-    background: url(https://preprod-cdnr.nykaa.com/assets/desktop/images/my_account/myaccountbg.png) 50% center / cover no-repeat rgb(255, 255, 255);
-    margin:0 2rem ;
-    
-    height: 275px;
-    width: 750px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+.my_profile-card {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+  padding: 10px;
 }
-.my_profile-card{
-    position: absolute;
-    background-color: white;
-    z-index: 1;
-    display: flex;
-    padding: 10px ;
+.my_profile_card-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-.my_profile_card-image img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-.my_profile_card-editicon button{
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.my_profile_card-editicon button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 .my_profile_card-editicon {
-    margin-top: 0;
-   
-    text-align: right;
+  margin-top: 0;
+
+  text-align: right;
 }
-.my_profile_card-editicon span{
-    margin-left: 5px;
+.my_profile_card-editicon span {
+  margin-left: 5px;
 }
-.my_profile_card-details{
-    padding: 0 10px;
-    margin: 0 10px;
+.my_profile_card-details {
+  padding: 0 10px;
+  margin: 0 10px;
 }
 
-.my_profile-form{
-    margin:0 2rem ;
-    padding: 2rem 1rem;
-    background-color: white;
+.my_profile-form {
+  margin: 0 2rem;
+  padding: 2rem 1rem;
+  background-color: white;
 }
-.my_profile_form-heading{
-    display: flex;
-    justify-content: space-between;
+.my_profile_form-heading {
+  display: flex;
+  justify-content: space-between;
 }
-.my_profile_card-details h2,p{
-    margin: 0;
-    padding: 5px 0;
+.my_profile_card-details h2,
+p {
+  margin: 0;
+  padding: 5px 0;
 }
-.my_profile_form-feild{
-    padding-bottom: 2rem;
-   
-    border-bottom: 1px solid rgb(231, 213, 213)
+.my_profile_form-feild {
+  padding-bottom: 2rem;
+
+  border-bottom: 1px solid rgb(231, 213, 213);
 }
-.my_profile_form-heading{
-    padding:0 2rem;
+.my_profile_form-heading {
+  padding: 0 2rem;
 }
 .my_profile-icon {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
-.my_profile_form-heading1{
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
-    vertical-align:top;
+.my_profile_form-heading1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  vertical-align: top;
 }
-.my_profile_form-heading2{
-    border: none;
-    outline: none;
-    background-color: transparent;
-    font-size: 17px;
-   vertical-align: top;
-    text-transform: uppercase;
+.my_profile_form-heading2 {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 17px;
+  vertical-align: top;
+  text-transform: uppercase;
 }
-.my_profile_form-feild{
-    margin-top: 1rem;
+.my_profile_form-feild {
+  margin-top: 1rem;
 }
-.my_profile_form-address{
-    background-color: white;
-    width: 300px;
-    height: 150px;
-    border: 1px solid gainsboro;
-    
-    padding: 1rem;
-}
+.my_profile_form-address {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  border: 1px solid gainsboro;
 
+  padding: 1rem;
+}
 
 /* edit profile */
 
+.edit-section {
+  background-color: rgb(255, 255, 255);
+  box-shadow:
+    rgba(17, 19, 20, 0.16) 0px 2px 8px -2px,
+    rgba(17, 19, 20, 0.08) 0px 8px 24px -2px;
+  top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.25rem;
+  position: absolute;
+  width: 400px;
+  text-align: center;
+  z-index: 2;
+}
+.edit_close-icon {
+  text-align: right;
+}
+.edit_form-section {
+  padding: 1rem 3rem;
+  text-align: left;
+}
+.edit_gender-section {
+  text-align: left;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.edit_form-slection {
+  position: relative;
+}
+.edit_form-slection input {
+  cursor: pointer;
+  height: 36px;
+  margin-left: 0;
 
-
-.edit-section{
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(17, 19, 20, 0.16) 0px 2px 8px -2px, rgba(17, 19, 20, 0.08) 0px 8px 24px -2px;
-    top:3rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 1.25rem;
-    position:absolute;
-    width: 400px;
-    text-align: center;
-    z-index: 2;
-    
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
 }
-.edit_close-icon{
-    text-align: right;
-   
+.edit_gender-section label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  border: 1px solid rgb(111, 121, 129);
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+  height: 25px;
+  text-transform: capitalize;
+  width: 70px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 0 10px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(58, 64, 71);
 }
-.edit_form-section{
-    padding: 1rem 3rem;
-    text-align: left;
+.edit_gender-section i {
+  margin-right: 5px;
 }
-.edit_gender-section{
-    text-align: left;
-    align-items: center;
-    display: flex;
-    position: relative;
+.edit_form_details-section {
+  padding: 1rem 0;
+  border-bottom: 1px solid gainsboro;
 }
-.edit_form-slection{
-    position: relative;
-}
-.edit_form-slection input{
-    cursor: pointer;
-    height: 36px;
-    margin-left: 0;
-   
-    opacity: 0.5;
-    position: absolute;
-    width: 100%;
-    
-}
-.edit_gender-section label{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-    border: 1px solid rgb(111, 121, 129);
-    border-radius: 16px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
-    height: 25px;
-    text-transform: capitalize;
-    width: 70px;
-    cursor: pointer;
-    text-align: center;
-    padding: 5px 10px;
-    margin: 0 10px;
-    vertical-align: middle;
-    display: inline-block;
-    margin-bottom: 0px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(58, 64, 71);
-
-}
-.edit_gender-section i{
-    margin-right: 5px;
-}
-.edit_form_details-section{
-    padding: 1rem 0;
-    border-bottom: 1px solid gainsboro;
-}
-.edit_form_details-section input{
+.edit_form_details-section input {
   outline: none;
   border: none;
   width: 100%;
 }
-.edit_form_details-section p{
-    text-align: right;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0px;
-   
-   
-    color: rgb(232, 0, 113);
-    cursor: pointer;
+.edit_form_details-section p {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
 
+  color: rgb(232, 0, 113);
+  cursor: pointer;
 }
-.edit_form-button{
-    display: flex;
-    justify-content: center;
+.edit_form-button {
+  display: flex;
+  justify-content: center;
 }
-.edit_form-button button{
-   
-   
-    margin: 1rem ;
-    padding: 1rem 1.5rem;
-    min-width: 150px;
-    border-radius: 2px;
-    height: 50px;
-    border: none;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-    background-color: rgb(232, 0, 113);;
-  
-  
+.edit_form-button button {
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  min-width: 150px;
+  border-radius: 2px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  background-color: rgb(232, 0, 113);
 }
 
 /* add ADDRESS */
 
-.address{
-    top: 3rem;
-    width: 370px;
-    background-color: white;
-    position: absolute;
-    z-index: 2;
-    padding: 1rem 2rem;
-    border: 2px solid gray;
-    box-shadow: rgba(17, 19, 20, 0.16) 0px 21px 8px 12px, rgba(22, 160, 230, 0.08) 0px 8px 24px -2px;
+.address {
+  top: 3rem;
+  width: 370px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+  padding: 1rem 2rem;
+  border: 2px solid gray;
+  box-shadow:
+    rgba(17, 19, 20, 0.16) 0px 21px 8px 12px,
+    rgba(22, 160, 230, 0.08) 0px 8px 24px -2px;
 }
-.address_input-section{
-    padding: 1rem 0;
-    border-bottom: 1px solid gainsboro;
+.address_input-section {
+  padding: 1rem 0;
+  border-bottom: 1px solid gainsboro;
 }
-.address_input-section input{
-    outline: none;
-    border: none;
-    width: 100%;
+.address_input-section input {
+  outline: none;
+  border: none;
+  width: 100%;
 }
-.address_input-section  select{
-    width: 100%;
-    outline: none;
-    border: none;
-    color: palevioletred;
+.address_input-section select {
+  width: 100%;
+  outline: none;
+  border: none;
+  color: palevioletred;
 }
 
-.address_text-section{
-    margin: 1rem 0;
-    width: 100%;
-    height: 80px;
+.address_text-section {
+  margin: 1rem 0;
+  width: 100%;
+  height: 80px;
 }
 .address_input-checkbox {
-    display: flex;
-    padding: 1rem 0;
-    border-bottom: 1px solid gainsboro;
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid gainsboro;
 }
-.address-button{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
+.address-button {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
 }
-.address-button button{
- width: 100%;
- padding: 1rem;
- outline: none;
- border: none;
- background-color: rgb(153, 144, 144);
+.address-button button {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background-color: rgb(153, 144, 144);
 }

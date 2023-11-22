@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const Logout = () => {
-  return (
-    <div>
-      logout
-    </div>
-  )
-}
+  return <div>logout</div>;
+};
 
-export default Logout
+export default Logout;

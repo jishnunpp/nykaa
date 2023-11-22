@@ -1,22 +1,20 @@
-.profile{
-    margin: 0; 
-    
+.profile {
+  margin: 0;
 }
-.profile-section{
-    background-color: whitesmoke;
-    padding: 0 6rem;  
+.profile-section {
+  background-color: whitesmoke;
+  padding: 0 6rem;
 }
-.profile-heading{
- list-style: none;
- margin:0;
- display: flex;
+.profile-heading {
+  list-style: none;
+  margin: 0;
+  display: flex;
 }
-.profile-heading li{
-    margin: 0 1rem;
+.profile-heading li {
+  margin: 0 1rem;
 }
-.profile-container{
- 
-    margin:0;
-    padding: 1rem 3rem;
-    display: flex;
+.profile-container {
+  margin: 0;
+  padding: 1rem 3rem;
+  display: flex;
 }

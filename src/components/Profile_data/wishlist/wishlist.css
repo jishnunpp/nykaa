@@ -1,34 +1,33 @@
-.wishlist{
-    background-color: white;
-    margin:0 2rem;
-    padding: 1rem;
-    margin-top: 0;
-    width:750px ;
+.wishlist {
+  background-color: white;
+  margin: 0 2rem;
+  padding: 1rem;
+  margin-top: 0;
+  width: 750px;
 }
-.wishlist-heading{
- border-bottom: 1px solid gainsboro;    
+.wishlist-heading {
+  border-bottom: 1px solid gainsboro;
 }
-.wishlist-heading h2{
- font-size: 35px;
- font-weight: 500;
- margin: 0;
- padding: 1rem;
+.wishlist-heading h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+  padding: 1rem;
 }
-.wishlist-count{
-    color: rgb(232, 0, 113);
-    padding-left: 1rem;
+.wishlist-count {
+  color: rgb(232, 0, 113);
+  padding-left: 1rem;
 }
-.wishlist_card-section{
-    display: flex;
-    flex-wrap: wrap;
+.wishlist_card-section {
+  display: flex;
+  flex-wrap: wrap;
 }
-.wishlist_card{
-    padding: 0rem;
-    margin: 2rem;
-    border: 1px solid gainsboro;
+.wishlist_card {
+  padding: 0rem;
+  margin: 2rem;
+  border: 1px solid gainsboro;
 }
 .wishlist_image_card img {
- width: 180px;
- height: 200px;
- 
+  width: 180px;
+  height: 200px;
 }

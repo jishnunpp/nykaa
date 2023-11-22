@@ -1,8 +1,7 @@
-
 import './App.css';
-import Body from './container/body/Body';
+import Body from './container/body/Body'
 
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Signin from './components/sign in/Signin';
 import Profile from './container/profile/Profile';
 import Myprofile from './components/Profile_data/my_profile/Myprofile';
@@ -14,56 +13,51 @@ import Logout from './components/Profile_data/logout/Logout';
 
 const appRouter = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Body />,
-   
   },
   {
-    path:'login',
-    element:<Signin/>,
+    path: 'login',
+    element: <Signin />,
   },
   {
-    path: "Profile",
-    element: <Profile/>,
+    path: 'Profile',
+    element: <Profile />,
     children: [
       {
         path: 'Myprofile',
-        element: <Myprofile/>
+        element: <Myprofile />,
       },
       {
-        path:'wallet',
-        element:< Wallet/>,
+        path: 'wallet',
+        element: <Wallet />,
       },
       {
         path: 'orders',
-        element: <Orders />
+        element: <Orders />,
       },
       {
-        path:'whishlist',
-        element:< Wishlist/>,
-      }, {
+        path: 'whishlist',
+        element: <Wishlist />,
+      },
+      {
         path: 'savedpayment',
-        element: <Savedpayment/>
+        element: <Savedpayment />,
       },
       {
-        path:'logout',
-        element:< Logout/>,
-      }
+        path: 'logout',
+        element: <Logout />,
+      },
     ],
-   
   },
 ]);
-
 
 function App() {
   return (
     <div className="App">
-     
-     <RouterProvider router={appRouter} />
-     
-     
+      <RouterProvider router={appRouter} />
     </div>
-  );      
+  );
 }
 
 export default App;

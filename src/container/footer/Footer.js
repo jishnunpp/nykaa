@@ -1,5 +1,5 @@
-import React from "react";
-import "./footer.css";
+import React from 'react';
+import './footer.css';
 
 const Footer = () => {
   return (
@@ -54,13 +54,13 @@ const Footer = () => {
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq99-zjbX8XrZlmqkru0OOZTENe75EerCIgCKeK28m6Wwx5ssGXi_eP0MA1XLcI5yJDnM&usqp=CAU"
                   alt="plastore"
-                />{" "}
+                />{' '}
               </a>
               <a>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRuufR91Cic290x-0BGz-y5pwhyOynecYYYGWlbcSM6_UH2kDDEggrvDzptbHmDT8TgZU&usqp=CAU"
                   alt="appstore"
-                />{" "}
+                />{' '}
               </a>
             </div>
           </div>
@@ -363,7 +363,7 @@ const Footer = () => {
           <div className="responsive_third_media-heading">
             show some love ❤ on social media
           </div>
-          
+
           <ul className="responsive_third_media-icons">
             <li>
               <a href="https://www.instagram.com/mynykaa/?ref=badge">
@@ -406,8 +406,6 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-
-        
         </div>
 
         <div className="responsive_fourth-section">
@@ -446,12 +444,29 @@ const Footer = () => {
         </div>
         <div className="responsive_sixth-section">
           <p>© 2023 Nykaa E-Retail Pvt. Ltd. All Rights Reserved.</p>
-
         </div>
         <div className="responsive_seventh-section">
           <h4>Popular Links</h4>
-          <p>Lipstick,Highlighter,Hair Serum,Concealer,Face Mask,Biotique,Lip Gloss,Perfume For Women,Facial Kit,Bb Cream,Victoria Secret,Love Beauty And Planet Shampoo,Eyeliner,Hair Mask,Face Wash For Oily Skin,Ordinary,Toner,Eyeshadow Palette,Cleanser,Chemist At Play,Mascara,Loreal Professional,Hair Extensions,Olay Cream,Fogg,Lip Tint,Under Eye Cream,Wax Strips,Shower Gel,Sunscreen For Face,Insight Cosmetics,Face Foundation,Hair Removal Machine,Mac Foundation,Choker,Oud Perfume,Makeup Pouch,Olaplex,Body Mist,Wella Shampoo,Huda Beauty Foundation,Night Cream,Facewash,Nyx,Schwarzkopf Shampoo,Blue Heaven,Peel Off Mask,Best Lip Balm,Face Scrub,Cetaphil Face Wash,Mederma Cream,Mens Perfume,Multivitamins Tablet,Himalaya Face Wash,Garnier Face Wash,Hair Color For Women,Cetaphil Moisturizers,Denver Perfume,Ponds Face Wash,Streax Hair Serum,Nivea Body Lotions,Vaseline Body Lotions,Sugar Lipstick,Biotin Tablet,Aqualogica Sunscreen,Salicylic Acid Face Wash,Sensodyne Toothpaste,Fogg Perfume,Womens Perfume,Clean And Clear Face Wash,Neutrogena Sunscreen,Pears Soaps,Hair Color For Men,Dry Cleansers,Face Serum</p>
-
+          <p>
+            Lipstick,Highlighter,Hair Serum,Concealer,Face Mask,Biotique,Lip
+            Gloss,Perfume For Women,Facial Kit,Bb Cream,Victoria Secret,Love
+            Beauty And Planet Shampoo,Eyeliner,Hair Mask,Face Wash For Oily
+            Skin,Ordinary,Toner,Eyeshadow Palette,Cleanser,Chemist At
+            Play,Mascara,Loreal Professional,Hair Extensions,Olay Cream,Fogg,Lip
+            Tint,Under Eye Cream,Wax Strips,Shower Gel,Sunscreen For
+            Face,Insight Cosmetics,Face Foundation,Hair Removal Machine,Mac
+            Foundation,Choker,Oud Perfume,Makeup Pouch,Olaplex,Body Mist,Wella
+            Shampoo,Huda Beauty Foundation,Night Cream,Facewash,Nyx,Schwarzkopf
+            Shampoo,Blue Heaven,Peel Off Mask,Best Lip Balm,Face Scrub,Cetaphil
+            Face Wash,Mederma Cream,Mens Perfume,Multivitamins Tablet,Himalaya
+            Face Wash,Garnier Face Wash,Hair Color For Women,Cetaphil
+            Moisturizers,Denver Perfume,Ponds Face Wash,Streax Hair Serum,Nivea
+            Body Lotions,Vaseline Body Lotions,Sugar Lipstick,Biotin
+            Tablet,Aqualogica Sunscreen,Salicylic Acid Face Wash,Sensodyne
+            Toothpaste,Fogg Perfume,Womens Perfume,Clean And Clear Face
+            Wash,Neutrogena Sunscreen,Pears Soaps,Hair Color For Men,Dry
+            Cleansers,Face Serum
+          </p>
         </div>
       </div>
     </div>
