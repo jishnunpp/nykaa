@@ -1,0 +1,36 @@
+.bag{
+    background-color: white;
+}
+.bag-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    border-bottom: 1px solid gray;
+}
+.bag-button1 a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bag-button1 span{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.bag-button2 a{
+    color: rgb(211, 22, 148);
+}
+
+.bag-data{
+    text-align: center;
+    padding: 5rem 2rem;
+ 
+}
+.bag-data p{
+    text-align: center;
+}
+.bag-button button{
+    background-color: rgb(182, 32, 102);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem 3rem;
+}

@@ -6,15 +6,20 @@ import { BiShoppingBag } from 'react-icons/bi';
 import { CgProfile } from 'react-icons/cg';
 import { FiSearch } from 'react-icons/fi';
 import { useState } from 'react';
+import {Link} from 'react-router-dom';
+import { GrClose } from 'react-icons/gr';
 
 const Menubar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [toggleitem, settoggleitem] = useState(false);
+  const [toggleProfile, settoggleProfile] = useState(false);
+  const [makeup, setMakeup] = useState(false);
   return (
     <>
       <div className="menubar">
         <ul className="menubar-links">
-          <li>
+          <li  onMouseEnter={() => setMakeup(true)}
+              onMouseLeave={() => setMakeup(false)}>
             <a>Makeup</a>
           </li>
           <li>
@@ -51,7 +56,135 @@ const Menubar = () => {
         <div className="sale_btn">
           <button type="button">SALE</button>
         </div>
+        
       </div>
+      {makeup&&
+          <div className="makeup">
+            <div className="makeup-section1">
+              <h4>Face</h4>
+              <ul>
+                <li>Face Primer</li>
+                <li>Concealer</li>
+                <li>Foundation</li>
+                <li>Compact</li>
+                <li>Contor</li>
+                <li>Loose Powder</li>
+                <li>Tinted Moisturizer</li>
+                <li>Blush</li>
+                <li>Bronzer</li>
+                <li>BB&& CC crem</li>
+                <li>Highlighters</li>
+                <li>Setting Spray</li>
+              </ul>
+            </div>
+            <div className="makeup-section2">
+              <h4>Eyes</h4>
+              <ul>
+                <li>Kajal</li>
+                <li>Eyeliner</li>
+                <li>Mascara</li>
+                <li>Eye shadow</li>
+                <li>Eye brow enhancers</li>
+                <li>Eye primer</li>
+                <li>Contact Lense</li>
+                <li>Under eye canclear</li>
+                <li>Eye shadow</li>
+                <li>Eye shadow</li>
+                
+
+              </ul>
+              <h4>Makeup Kites ^ Combo</h4>
+              <ul>
+                <li>Makeup kit</li>
+                <li>Makeup combos</li>
+                
+                
+              </ul>
+            </div>
+            <div className="makeup-section1">
+            <h4>Lips</h4>
+              <ul>
+                <li>Face Primer</li>
+                <li>Concealer</li>
+                <li>Foundation</li>
+                <li>Compact</li>
+                <li>Contor</li>
+                <li>Loose Powder</li>
+                <li>Tinted Moisturizer</li>
+                <li>Blush</li>
+                <li>Bronzer</li>
+                <li>BB&& CC crem</li>
+                <li>Highlighters</li>
+                <li>Setting Spray</li>
+              </ul>
+            </div>
+            <div className="makeup-section2">
+            <h4>Tools and brush</h4>
+              <ul>
+                <li>Face Primer</li>
+                <li>Concealer</li>
+                <li>Foundation</li>
+                <li>Compact</li>
+                <li>Contor</li>
+                <li>Loose Powder</li>
+                <li>Tinted Moisturizer</li>
+                <li>Blush</li>
+                <li>Bronzer</li>
+                <li>BB&& CC crem</li>
+                <li>Highlighters</li>
+                <li>Setting Spray</li>
+              </ul>
+            </div>
+            <div className="makeup-section1">
+            <h4>Nails</h4>
+              <ul>
+                <li>Kajal</li>
+                <li>Eyeliner</li>
+                <li>Mascara</li>
+                <li>Eye shadow</li>
+                <li>Eye brow enhancers</li>
+                <li>Eye primer</li>
+                <li>Contact Lense</li>
+                <li>Under eye canclear</li>
+                <li>Eye shadow</li>
+                <li>Eye shadow</li>
+                
+
+              </ul>
+              <h4>Makeup Kites ^ Combo</h4>
+              <ul>
+                <li>Makeup kit</li>
+                <li>Makeup combos</li>
+                
+                
+              </ul>
+            </div>
+          
+            <div className="makeup-section2">
+            <h4>Trending Searches</h4>
+              <ul>
+                <li>Kajal</li>
+                <li>Eyeliner</li>
+                <li>Mascara</li>
+                <li>Eye shadow</li>
+                <li>Eye brow enhancers</li>
+                <li>Eye primer</li>
+                <li>Contact Lense</li>
+                <li>Under eye canclear</li>
+                <li>Eye shadow</li>
+                <li>Eye shadow</li>
+                
+
+              </ul>
+              <h4>Top brands</h4>
+              <ul>
+                <li>Makeup kit</li>
+                <li>Makeup combos</li>
+                
+                
+              </ul>
+            </div>
+          </div>}
       {/* RESPONSIVE-NAVBAR */}
       <div className="header">
         <div className="navbar">
@@ -82,10 +215,10 @@ const Menubar = () => {
           </div>
           <div className="right-div">
             <div className="item">
-              <BiShoppingBag className="icon" />
+              <Link to={'/Bag'}>  <BiShoppingBag className="icon" /></Link>
             </div>
             <div className="item">
-              <CgProfile className="icon" />
+              <CgProfile className="icon"  onClick={() =>  settoggleProfile(true)} />
             </div>
           </div>
         </div>
@@ -100,6 +233,22 @@ const Menubar = () => {
           </div>
         </div>
       </div>
+      {toggleProfile&&
+      <div className="responsive-profile">
+        <div className="responsive-profile-btn">
+        <GrClose onClick={() => settoggleProfile(false)} />
+        </div>
+        
+        <ul>
+          <li>Need Help</li>
+          <li>Authenticity</li>
+          <li>Nykaa CSR</li>
+          <li>Responsible Disclosure</li>
+          <li>Chat Now</li>
+          <Link to="login"> <li>Log in</li> </Link>
+        </ul>
+      </div>
+      }
 
       {toggleMenu && (
         <div className="reponsive-menu ">

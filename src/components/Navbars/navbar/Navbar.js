@@ -256,7 +256,7 @@ const Navbar = () => {
               </p>
             </div>
             <div>
-              <Link to="login">
+              <Link to="sigin">
                 {' '}
                 <button type="button">
                   Sign in with Mobile / Email

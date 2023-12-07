@@ -1,5 +1,5 @@
 import './App.css';
-import Body from './container/body/Body'
+import Body from './container/body/Body';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Signin from './components/sign in/Signin';
@@ -10,6 +10,8 @@ import Wallet from './components/Profile_data/wallet/Wallet';
 import Orders from './components/Profile_data/my_orders/Orders';
 import Savedpayment from './components/Profile_data/saved_payment/Savedpayment';
 import Logout from './components/Profile_data/logout/Logout';
+import Bagpage from './container/Bagpage/Bagpage';
+import Signinsmall from './components/Signinsmall/Signin';
 
 const appRouter = createBrowserRouter([
   {
@@ -18,7 +20,15 @@ const appRouter = createBrowserRouter([
   },
   {
     path: 'login',
+    element: <Signinsmall />,
+  },
+  {
+    path: 'sigin',
     element: <Signin />,
+  },
+  {
+    path: 'Bag',
+    element: <Bagpage />,
   },
   {
     path: 'Profile',

@@ -274,3 +274,85 @@
   line-height: 24px;
   height: 44px;
 }
+.responsive-profile{
+  width: 250px;
+  height: 300px;
+  right:0;
+  top: 1rem;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  text-align:left;
+ 
+  border-radius: 10px;
+  position: absolute;
+  z-index: 3;
+  transform: translate(-50%, 0px);
+  box-shadow: rgba(0, 19, 37, 0.48) 0px 8px 32px;
+}
+.responsive-profile ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.responsive-profile li{
+  margin: 10px;
+}
+.responsive-profile-btn{
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+/* menubar hover data */
+.makeup{
+  width: 90%;
+  height: 420px;
+  display: flex;
+  margin-left: 100px;
+
+  position: absolute;
+ background-color: white;
+ 
+  border-radius: 10px;
+  position: absolute;
+  z-index: 4;
+}
+.makeup-section1{
+ width: 20%;
+ padding: 10px;
+}
+.makeup-section1 h4{
+  margin: 0;
+}
+.makeup-section1 ul{
+  list-style: none;
+  padding: 0;
+ 
+  
+}
+.makeup-section1 li{
+  font-size: 15px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.makeup-section2{
+  background-color:rgb(229, 229, 235);
+  width: 20%;
+  padding: 10px;
+}
+.makeup-section2 h4{
+  margin: 0;
+}
+.makeup-section2 ul{
+  list-style: none;
+  padding: 0;
+ 
+  
+}
+.makeup-section2 li{
+  font-size: 15px;
+  color: gray;
+  margin-top: 5px;
+}
