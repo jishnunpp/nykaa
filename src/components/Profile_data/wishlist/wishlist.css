@@ -33,11 +33,56 @@
   margin: 1rem;
   border: 1px solid gray;
   max-width: 200px;
+  position: relative;
+}
+.wishlist-card-btn{
+  position: absolute;
+  left: 0;
+  
+}
+.wishlist-card-closebtn{
+  width: 30px;
+  height: 30px;
+
 }
 .wishlist_image_card img {
-  max-width: 200px;
+  width: 100%;
   height: 200px;
 }
+.wishlist_card-text {
+  height: 70px;
+}
+.wishlist_card-text p{
+  text-align: center;
+  color: black;
+  padding: 10px ;
+  font-size: 15px;
+  font-weight: 500;
+}
+.wishlist-card-amount{
+  height: 40px;
+}
+.wishlist-card-amount p{
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+.wishlist-card-amount span{
+  margin: 0 1rem;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+.wishlist_card-bottom-text h2{
+  font-size: 20px;
+    padding: 5px;
+    color: #E80071;
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: 0;
+
+}
+
 
 .wishlist-small-device{
   display: none;
@@ -62,6 +107,7 @@
     border-bottom: 1px solid gainsboro;
    
   }
+
   .wishlist-smallscreen-heading h2 {
     font-size: 20px;
     font-weight: 500;
@@ -78,24 +124,68 @@
     margin: 0;
     border: 1px solid gray;
     max-width: 250px;
+    position: relative;
   
   }
-  .wishlist-smallscreen_card-text h2{
-    font-size: 20px;
-    padding: 5px;
+  .wishlist-smallscreen_card-btn{
+    position: absolute;
+    left: 0;
+    
+  }
+  .wishlist-ss-card-closebtn{
+    width: 30px;
+    height: 30px;
+  
   }
   .wishlist-smallscreen_image_card img {
     width: 100%;
-    width: 100%;
+   
+    height: 250px;
    
   }
+  .wishlist-smallscreen_card-text {
+    height: 70px;
+  }
+  .wishlist-smallscreen_card-text p{
+    text-align: center;
+    color: black;
+    padding: 10px ;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .wishlist-smallscreen_card-amount{
+    height: 40px;
+  }
+  .wishlist-smallscreen_card-amount p{
+    text-align: center;
+    align-items: center;
+    color: black;
+
+  }
+  .wishlist-smallscreen_card-amount span{
+    margin: 0 1rem;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .wishlist-smallscreen_card-bottom-text h2{
+    font-size: 20px;
+    padding: 5px;
+    color: #E80071;
+    text-align: center;
+    border: 1px solid gainsboro;
+    margin: 0;
+  }
+ 
 
   
 }
 
-@media screen  and (max-width:450px){
+@media screen  and (max-width:550px){
+  .wishlist-smallscreen_card{
+    max-width: 200px;
+  }
   .wishlist-smallscreen_image_card img {
-    width: 160px;
+    width: 100%;
     height: 180px;
   }
 
@@ -107,4 +197,13 @@
   }
 
   
+}
+@media screen  and (max-width:420px){
+  .wishlist-smallscreen_card{
+    max-width: 170px;
+  }
+  .wishlist-smallscreen_image_card img {
+    max-width: 170px;
+    height: 180px;
+  }
 }
