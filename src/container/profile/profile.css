@@ -18,3 +18,16 @@
   padding: 1rem 3rem;
   display: flex;
 }
+.profile-smallscreen{
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-bigscreen {
+    display: none;
+  }
+  .profile-smallscreen{
+    display: contents;
+  }
+}
+

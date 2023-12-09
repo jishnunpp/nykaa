@@ -240,9 +240,17 @@ const Menubar = () => {
         </div>
         
         <ul>
-          <li>Need Help</li>
-          <li>Authenticity</li>
+        {/* <Link to="orders">  <li>My Orders</li></Link>
+        <Link to="wallet">  <li>My Wallet</li></Link>
+        <Link to="whishlist">  <li>My Wishlist</li></Link>
+        <Link to="Myprofile">  <li>My Profile</li></Link> */}
+          {/* <li>Nykaa prive</li> */}
+          {/* <li>Need Help</li> */}
+          {/* <li>Authenticity</li> */}
+          <li>Chat Now</li>
           <li>Nykaa CSR</li>
+          <li>Help Center</li>
+          
           <li>Responsible Disclosure</li>
           <li>Chat Now</li>
           <Link to="login"> <li>Log in</li> </Link>

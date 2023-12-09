@@ -31,7 +31,7 @@ const appRouter = createBrowserRouter([
     element: <Bagpage />,
   },
   {
-    path: 'Profile',
+    path: '',
     element: <Profile />,
     children: [
       {

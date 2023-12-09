@@ -7,23 +7,30 @@ import Header from '../header/Header';
 const Profile = () => {
   return (
     <div className="profile">
-      <Header />
-      <div className="profile-section">
-        <div>
-          <ul className="profile-heading">
-            <li>Home</li>
-            <li>Profile</li>
-          </ul>
-        </div>
-        <div className="profile-container">
-          <div className="profile-sidebar">
-            <Sidebar />
+      <div className="profile-bigscreen">
+        <Header />
+        <div className="profile-section">
+          <div>
+            <ul className="profile-heading">
+              <li>Home</li>
+              <li>Profile</li>
+            </ul>
           </div>
-          <div className="profile-data">
-            <Outlet />
+          <div className="profile-container">
+            <div className="profile-sidebar">
+              <Sidebar />
+            </div>
+            <div className="profile-data">
+              <Outlet />
+            </div>
           </div>
         </div>
+        
       </div>
+      <div className="profile-smallscreen">
+          <Outlet />
+          
+        </div>
     </div>
   );
 };
