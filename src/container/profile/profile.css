@@ -4,6 +4,7 @@
 .profile-section {
   background-color: whitesmoke;
   padding: 0 6rem;
+  margin: 0;
 }
 .profile-heading {
   list-style: none;
@@ -15,7 +16,7 @@
 }
 .profile-container {
   margin: 0;
-  padding: 1rem 3rem;
+  padding: 1rem 3rem 2rem 3rem;
   display: flex;
 }
 .profile-smallscreen{

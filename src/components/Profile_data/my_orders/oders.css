@@ -1,0 +1,43 @@
+.orders {
+    margin: 0 2rem;
+
+    height: 275px;
+    width: 750px;
+    justify-content: center;
+  }
+  .orders-heading{
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+  }
+  .orders-content{
+    background-color: white;
+    width: 95%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .orders-content-image {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }
+  .orders-content-image svg{
+    width: 100px;
+    height: 100px;
+  }
+.orders-content-text p{
+ text-align: center;
+
+}
+.orders-content-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.orders-content-btn button{
+    border: none;
+    background-color: transparent;
+    color: #E80071;
+}

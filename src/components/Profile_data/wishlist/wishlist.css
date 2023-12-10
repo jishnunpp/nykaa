@@ -75,7 +75,8 @@
 }
 .wishlist_card-bottom-text h2{
   font-size: 20px;
-    padding: 5px;
+  font-weight: 600;
+    padding: 10px;
     color: #E80071;
     text-align: center;
     border: 1px solid gainsboro;
@@ -169,7 +170,8 @@
   }
   .wishlist-smallscreen_card-bottom-text h2{
     font-size: 20px;
-    padding: 5px;
+    font-weight: 600;
+    padding: 10px;
     color: #E80071;
     text-align: center;
     border: 1px solid gainsboro;

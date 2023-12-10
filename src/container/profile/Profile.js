@@ -3,12 +3,13 @@ import './profile.css';
 import Sidebar from '../../components/sidebar/Sidebar';
 import { Outlet } from 'react-router-dom';
 import Header from '../header/Header';
+import Footer from '../footer/Footer'
 
 const Profile = () => {
   return (
     <div className="profile">
       <div className="profile-bigscreen">
-        <Header />
+        <Header/>
         <div className="profile-section">
           <div>
             <ul className="profile-heading">
@@ -25,6 +26,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
+        <Footer/>
         
       </div>
       <div className="profile-smallscreen">

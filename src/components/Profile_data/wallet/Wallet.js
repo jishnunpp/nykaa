@@ -3,7 +3,7 @@ import './wallet.css';
 
 const Wallet = () => {
   return <div className="wallet">
-    <div className="wallet-bigscreen">
+    <div className="wallet-bigscreen-heading">
       <p>my big wallet</p>
 
     </div>
