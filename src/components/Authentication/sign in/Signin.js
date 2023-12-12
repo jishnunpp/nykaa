@@ -1,6 +1,7 @@
 import React from 'react';
 import './signin.css';
 import { GrClose } from 'react-icons/gr';
+import { Link } from 'react-router-dom';
 
 const Signin = () => {
   return (
@@ -8,7 +9,7 @@ const Signin = () => {
       <div className="signin-box">
         <div className="heading">
           <div className="close-btn">
-            <GrClose />
+          <Link to={'/'}>  <GrClose /></Link>
           </div>
 
           <div className="heading_text">
@@ -20,7 +21,7 @@ const Signin = () => {
           <p className="text">REQUIRED</p>
         </div>
         <div className="btn">
-          <button type="button">PROCEED</button>
+        <Link to={'register'}>  <button type="button">PROCEED</button></Link>
         </div>
       </div>
     </div>

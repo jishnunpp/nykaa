@@ -2,7 +2,8 @@ import './App.css';
 import Body from './container/body/Body';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Signin from './components/sign in/Signin';
+import Signin from './components/Authentication/sign in/Signin';
+import Register from './components/Authentication/Register/Register';
 import Profile from './container/profile/Profile';
 import Myprofile from './components/Profile_data/my_profile/Myprofile';
 import Wishlist from './components/Profile_data/wishlist/Wishlist';
@@ -11,7 +12,7 @@ import Orders from './components/Profile_data/my_orders/Orders';
 import Savedpayment from './components/Profile_data/saved_payment/Savedpayment';
 import Logout from './components/Profile_data/logout/Logout';
 import Bagpage from './container/Bagpage/Bagpage';
-import Signinsmall from './components/Signinsmall/Signin';
+import Signinsmall from './components/Authentication/Signinsmall/Signin';
 
 const appRouter = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const appRouter = createBrowserRouter([
   {
     path: 'sigin',
     element: <Signin />,
+    
+  },
+  {
+    path: 'register',
+    element: <Register />,
   },
   {
     path: 'Bag',

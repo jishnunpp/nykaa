@@ -1,0 +1,93 @@
+.register{
+  background-color: rgb(236, 234, 231);
+  width: 100%;
+  height: 100vh;
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
+
+}
+.register-box{
+    max-width: 300px;
+    height: 550px;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+
+}
+.register-heading{
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+}
+.register-close-btn{
+
+}
+.register-heading_text{
+    margin-left: 60px;
+
+}
+.register-text p{
+  padding: 1rem 0;
+  text-align: center;
+  color: black;
+}
+.register-text span{
+  color:  rgb(232, 0, 113);
+}
+.register-box form{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+
+    
+
+}
+.register-input-section {
+    padding: 5px 0;
+   
+    border-bottom: 1px solid gainsboro;
+
+}
+.register-input-section label{
+    display: flex;
+    justify-content: flex-start;
+}
+.register-input-section input{
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+
+  .register-form-button{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+  .register-form-button button{
+    padding: 1rem 1.5rem;
+    width: 100%;
+    border-radius: 2px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    background-color: rgb(232, 0, 113);
+
+  }

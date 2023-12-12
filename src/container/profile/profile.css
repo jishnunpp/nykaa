@@ -18,6 +18,13 @@
   margin: 0;
   padding: 1rem 3rem 2rem 3rem;
   display: flex;
+  width: 100%;
+}
+.profile-sidebar{
+  width: 30%;
+}
+.profile-data{
+  width: 70%;
 }
 .profile-smallscreen{
   display: none;

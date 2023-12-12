@@ -1,0 +1,54 @@
+.logout{
+    background-color: whitesmoke;
+    height: 330px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logout-section{
+    padding: 1rem 0;
+    width: 40%;
+    background-color: white;
+   
+}
+.logout-heading{
+    padding: 2rem 0;
+}
+.logout-heading p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+.logout-btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border: 1px solid gainsboro;
+    width: 100%;
+}
+.logout-btn button{
+    border: none;
+    background-color: transparent;
+    color: #E80071;
+}
+
+@media screen and (max-width:1050px){
+   .logout{
+    height: 100vh;
+    width: 100%;
+}
+
+    
+}
+
+
+@media screen and (max-width:800px){
+  
+ .logout-section{
+     width: 70%;
+     height: 300px;
+ }
+     
+ }

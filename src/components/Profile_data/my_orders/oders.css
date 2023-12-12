@@ -1,8 +1,8 @@
 .orders {
     margin: 0 2rem;
-
+    background-color: whitesmoke;
     height: 275px;
-    width: 750px;
+    width: 100%;
     justify-content: center;
   }
   .orders-heading{
@@ -40,4 +40,16 @@
     border: none;
     background-color: transparent;
     color: #E80071;
+}
+
+
+@media screen and (max-width:1050px){
+  .orders{
+    height: 100vh;
+    margin: 0;
+    background-color: transparent;
+  }
+  .orders-content{
+    padding: 4rem 0;
+  }
 }
