@@ -33,10 +33,11 @@
 }
 
 .signinsmall-closebtn{
-    text-align: left;
+    display: flex;
+    justify-content: flex-start;
 }
 .signinsmall svg{
-    max-width: 250px;
+    width: 100%;
 }
 .signinsmall-btn1{
     background-color: #fc2779;
@@ -58,12 +59,16 @@
 }
 
 @media screen and (max-width:500px){
-    .signinsmall{
-        max-width: 200px;
-        padding: 1rem;
+    .signinsmall-bg{
+        padding: 0;
     }
+    .signinsmall{
+        
+        padding: 2rem;
+    }
+   
     .signinsmall svg{
-        max-width: 200px;
+        width: 100%;
     }
     .signinsmall-btn1{
         font-size: 12px;

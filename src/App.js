@@ -45,23 +45,23 @@ const appRouter = createBrowserRouter([
         element: <Myprofile />,
       },
       {
-        path: 'wallet',
+        path: '/wallet',
         element: <Wallet />,
       },
       {
-        path: 'orders',
+        path: '/orders',
         element: <Orders />,
       },
       {
-        path: 'whishlist',
+        path: '/whishlist',
         element: <Wishlist />,
       },
       {
-        path: 'savedpayment',
+        path: '/savedpayment',
         element: <Savedpayment />,
       },
       {
-        path: 'logout',
+        path: '/logout',
         element: <Logout />,
       },
     ],

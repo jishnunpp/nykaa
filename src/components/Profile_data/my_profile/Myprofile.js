@@ -256,7 +256,7 @@ const Myprofile = () => {
             </a>
           </div>
           <div>
-            <Link to={'wallet'}>
+            <Link to={'/wallet'}>
               {' '}
               <IoIosArrowForward />{' '}
             </Link>
@@ -272,7 +272,7 @@ const Myprofile = () => {
             </a>
           </div>
           <div>
-            <Link to={'orders'}>
+            <Link to={'/orders'}>
               {' '}
               <IoIosArrowForward />{' '}
             </Link>
@@ -289,7 +289,7 @@ const Myprofile = () => {
           </div>
 
           <div>
-            <Link to={'whishlist'}>
+            <Link to={'/whishlist'}>
               {' '}
               <IoIosArrowForward />{' '}
             </Link>
@@ -306,7 +306,7 @@ const Myprofile = () => {
           </div>
 
           <div>
-            <Link to={'savedpayment'}>
+            <Link to={'/savedpayment'}>
               {' '}
               <IoIosArrowForward />{' '}
             </Link>
@@ -322,7 +322,7 @@ const Myprofile = () => {
             </a>
           </div>
           <div>
-            <Link to={'logout'}>
+            <Link to={'/logout'}>
               {' '}
               <IoIosArrowForward />{' '}
             </Link>
