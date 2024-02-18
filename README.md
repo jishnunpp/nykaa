@@ -1,1 +1,1 @@
-Available on this link :https://nykaa-clone-j.netlify.app
+Available on this link : https://nykaa-clone-j.netlify.app
